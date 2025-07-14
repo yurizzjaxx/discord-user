@@ -51,9 +51,9 @@ def getUser(id):
                 getInput()
           else:
              print("\n")
-             print("=" * 25)
-             print(" " * 5, "Error Network")
-             print("=" * 25)
+             print("=" * 30)
+             print(" " * 4, "Error with name again")
+             print("=" * 30)
              print("\n")
              getInput()
     else:
