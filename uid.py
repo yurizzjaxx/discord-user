@@ -45,7 +45,7 @@ def get_discord_user_info(user_id):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Uso: python script.py <user_id>")
+        print("Uso: python uid.py <user_id>")
         sys.exit(1)
     
     user_id = sys.argv[1]
